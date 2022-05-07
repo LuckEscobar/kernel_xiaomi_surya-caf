@@ -197,7 +197,7 @@ static unsigned int get_next_freq(struct sugov_policy *sg_policy,
 static inline bool use_pelt(void)
 {
 #ifdef CONFIG_SCHED_WALT
-	return (!sysctl_sched_use_walt_cpu_util || walt_disabled);
+
 #else
 	return true;
 #endif
