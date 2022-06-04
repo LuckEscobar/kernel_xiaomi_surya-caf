@@ -67,8 +67,6 @@ static u64 suspend_time;
 static u64 suspend_start;
 static unsigned long acc_total, acc_relative_busy;
 
-
-
 /* Suspend state boolean */
 static bool suspended = false;
 
