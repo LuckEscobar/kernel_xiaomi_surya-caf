@@ -3087,8 +3087,7 @@
 	};
 };
 
-<<<<<<< HEAD
-=======
+
 &clock_cpucc {
 	qcom,cpufreq-table-0 =
 		<1248000>,
@@ -3110,8 +3109,6 @@
 		<1939200>,
 		<2169600>;
 };
-
->>>>>>> de21637a259b (arm64/boot: dts: Use efficient frequencies and costs for sm7150-ab)
 #include "sdmmagpie-gdsc.dtsi"
 #include "sdmmagpie-bus.dtsi"
 #include "sdmmagpie-qupv3.dtsi"
