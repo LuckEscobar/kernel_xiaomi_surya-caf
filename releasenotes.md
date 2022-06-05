@@ -7,13 +7,13 @@ Build ID:
 Build URL: 
 
 Last 5 Commits before Build:-
-* 6bb8be8c5886 (Revert "lpm-levels: Optimize and make way for upstream changes", 2022-05-07)
-* 064e0efa0f25 (ARM: dts: nomadik: Fix up interrupt controller node names, 2021-06-26)
-* fd73b052d04a (mmc: dw_mmc: Fix hang on data CRC error, 2021-06-30)
-* abf3c1f7c7e3 (ARM64: dts: sdmmagpie: Remove pm qos latency overrides, 2019-08-16)
-* bf0820f3b66e (tcp: Allow TCP Fast Open for both incoming & outgoing connections, 2022-01-17)
-* 4242f4db7180 (bpf: fix truncated jump targets on heavy expansions, 2018-05-17)
-* 56adb68ffe15 (drm/nouveau: fix off by one in BIOS boundary checking, 2022-01-22)
-* 95387c0d94bc (tipc: improve size validations for received domain records, 2022-02-05)
-* c18e042ee323 (x86/mm, mm/hwpoison: Fix the unmap kernel 1:1 pages check condition, 2022-02-07)
-* 17f0d91d37d6 (moxart: fix potential use-after-free on remove path, 2022-01-27)
+* 56580d375cd1a (Revert "gpu/msm: adreno_sysfs: Disable KGSL throttling and make it RO", 2022-06-04)
+* 9faa2ee7f2246 (Revert "adreno_idler: convert to state notifier", 2022-06-04)
+* c9a861ea21403 (., 2022-06-04)
+* 8d6b0893ec5e7 (fix, 2022-06-04)
+* d7e94945d3a85 (fix_build, 2022-06-04)
+* ea00185808168 (enaled-governors, 2022-06-04)
+* 6314026028664 (newgovernos_test3, 2019-03-23)
+* cfdb191a9b125 (added more CPU Governor, 2019-03-23)
+* ff9085a4ca0ac (newgovernos_test2, 2019-03-23)
+* c61f113d52063 (newgovernos_test, 2019-03-23)

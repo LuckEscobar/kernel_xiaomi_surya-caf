@@ -273,8 +273,6 @@ config CPU_FREQ_GOV_CONSERVATIVE
 
 	  If in doubt, say N.
 
-<<<<<<< HEAD
-=======
 config CPU_FREQ_GOV_SCHED
 	bool "'sched' cpufreq governor"
 	depends on CPU_FREQ
@@ -380,7 +378,6 @@ config CPUFREQ_DT
 
 	  If in doubt, say N.
 
->>>>>>> 98b47f807db6f (added more CPU Governor)
 config CPU_BOOST
 	tristate "Event base short term CPU freq boost"
 	depends on CPU_FREQ

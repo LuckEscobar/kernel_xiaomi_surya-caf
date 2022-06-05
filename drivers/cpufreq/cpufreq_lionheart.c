@@ -22,7 +22,6 @@
  *
  */
 
-#include <asm/cputime.h>
 #include <linux/kthread.h>
 #include <linux/time.h>
 #include <linux/timer.h>
