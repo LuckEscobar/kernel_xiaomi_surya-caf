@@ -46,7 +46,6 @@ enum vdd_gx_levels {
 	VDD_GX_LOW_L1,		/* SVSL1 */
 	VDD_GX_NOMINAL,		/* NOM */
 	VDD_GX_NOMINAL_L1,	/* NOM1 */
-	VDD_GX_HIGH,		/* TURBO */
 	VDD_GX_HIGH_L1,		/* TURBO1 */
 	VDD_GX_NUM,
 };
@@ -60,7 +59,6 @@ static int vdd_gx_corner[] = {
 	RPMH_REGULATOR_LEVEL_SVS_L1,		/* VDD_GX_LOW_L1 */
 	RPMH_REGULATOR_LEVEL_NOM,		/* VDD_GX_NOMINAL */
 	RPMH_REGULATOR_LEVEL_NOM_L1,		/* VDD_GX_NOMINAL_L1 */
-	RPMH_REGULATOR_LEVEL_TURBO,		/* VDD_GX_HIGH */
 	RPMH_REGULATOR_LEVEL_TURBO_L1,		/* VDD_GX_HIGH_L1 */
 	RPMH_REGULATOR_LEVEL_MAX,		/* VDD_GX_MAX */
 };
@@ -290,7 +288,6 @@ static const struct freq_tbl ftbl_gpu_cc_gx_gfx3d_clk_src[] = {
 	F(720000000, P_CRC_DIV, 1, 0, 0),
 	F(700000000, P_CRC_DIV, 1, 0, 0),
 	F(750000000, P_CRC_DIV, 1, 0, 0),
-	F(800000000, P_CRC_DIV, 1, 0, 0),
 	F(825000000, P_CRC_DIV, 1, 0, 0),
 	{ }
 };
@@ -318,8 +315,7 @@ static struct clk_rcg2 gpu_cc_gx_gfx3d_clk_src = {
 			[VDD_GX_LOW] = 79,
 			[VDD_GX_LOW_L1] = 129,
 			[VDD_GX_NOMINAL] = 193,
-			[VDD_GX_NOMINAL_L1] = 230,
-			[VDD_GX_HIGH_L1] = 825000000},
+			[VDD_GX_NOMINAL_L1] = 200},
 	},
 };
 
